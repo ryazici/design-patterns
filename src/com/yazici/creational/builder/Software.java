@@ -3,13 +3,13 @@ package com.yazici.creational.builder;
 public class Software {
 	
 	//mandatory field
-	private Object obj1;
+	private final Object obj1;
 	
 	
 	//optional fields
-	private Object obj2;
-	private Object obj3;
-	private Object obj4;
+	private final Object obj2;
+	private final Object obj3;
+	private final Object obj4;
 	
 	
 	
