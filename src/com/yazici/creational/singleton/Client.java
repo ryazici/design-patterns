@@ -10,11 +10,11 @@ public class Client {
 		BillPughSingleton instance3=BillPughSingleton.getInstance();
 		BillPughSingleton instance4=BillPughSingleton.getInstance();
 		
-		if(instance1.equals(instance2))
+		if(instance1 == instance2)
 			System.out.println("Same object in every object request");
 		
 	
-		if(instance3.equals(instance4))
+		if(instance3 == instance4)
 			System.out.println("Same object in every object request with Bill Pugh way");
 		
 		
