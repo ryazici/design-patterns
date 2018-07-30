@@ -10,9 +10,9 @@ public class Client {
 	public static void main(String[] args) {
 		
 		
-		Long start=  System.currentTimeMillis();
+		
 		List<Word> words=new ArrayList<>();
-	
+		Long start=  System.currentTimeMillis();
 		for (int i = 0; i < WORD_COUNT; i++) {
 			words.add( new Word("HODOR!", Lang.OTHER));
 		}
@@ -31,9 +31,8 @@ public class Client {
 		
 		
 		// Console output
-		// Without Flyweight : 58
+		// Without Flyweight : 66
 		// With Flyweight : 26
-		//
 
 	}
 
