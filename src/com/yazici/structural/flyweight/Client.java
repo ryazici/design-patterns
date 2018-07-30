@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Client {
 
-	private final static int WORD_COUNT=1_000_000;
+	private final static Integer WORD_COUNT=1_000_000;
 	
 	public static void main(String[] args) {
 		
